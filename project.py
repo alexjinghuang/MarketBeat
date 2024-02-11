@@ -2,7 +2,7 @@ import csv
 from langdetect import detect 
 import sys
 
-origFile = r'C:\Users\alexz\Documents\AAA_PROXY\Hackathon\GTech2024\orig\data.csv'
+origFile = r'C:\Users\alexz\Documents\AAA_PROXY\Hackathon\GTech2024\data1.csv'
 cleanFile= r'C:\Users\alexz\Documents\AAA_PROXY\Hackathon\GTech2024\clean.csv'
 
 # Open the CSV file in read mode
@@ -20,7 +20,7 @@ with open(origFile, 'r',-1,"utf-8") as file:
             var = next(csv_reader)
             stringCheck = (str(var[10]) + " " + str(var[12]))    
             if(detect(stringCheck) != 'en'):
-                #print("At line:" + str(lineCount) + " Not english: " + stringCheck + "\n")
+                print("At line:" + str(lineCount) + " Not english: " + stringCheck + "\n")
                 errorLines.append(lineCount)
             
             #print(stringCheck)
