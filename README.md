@@ -21,7 +21,7 @@ MarketBeat is a submission to Hackalytics 2024, a datathon hosted at the Georgia
 
 Watch our video demo for a comprehensive overview:
 
-[![Watch the Video](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://drive.google.com/)
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/0hgPr74e2YU]" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Installation
 
