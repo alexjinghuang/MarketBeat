@@ -20,8 +20,7 @@ MarketBeat is a submission to Hackalytics 2024, a datathon hosted at the Georgia
 ## Video
 
 Watch our video demo for a comprehensive overview:
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/0hgPr74e2YU)
+https://youtu.be/0hgPr74e2YU
 
 ## Installation
 
